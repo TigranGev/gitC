@@ -10,9 +10,9 @@ int main(int argc, char *argv[]) {
 	printf("b: ");
 	scanf("%f", &b);
 	if (a>b){
-		printf("%f\n", a);
+		printf("%.2f\n", a);
 } else {
-		printf("%f\n", b);
+		printf("%.2f\n", b);
 }
 	return 0;
 }
